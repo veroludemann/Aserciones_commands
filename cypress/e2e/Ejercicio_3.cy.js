@@ -1,5 +1,5 @@
-/*Ejercicio 3: Test para DNI ya registrado*/
-describe('Test para DNI ya registrado', () => {
+/*Ejercicio 3: Validar redirección exitosa*/
+describe('Test para validar redirección exitosa', () => {
     beforeEach(() => {
     cy.visit('https://ticketazo.com.ar/auth/registerUser')
     })
