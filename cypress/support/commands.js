@@ -30,7 +30,7 @@ Cypress.Commands.add('pasosRegistro', () => {
     cy.get('[data-cy="input-nombres"]').clear().type('Juan')
     cy.get('[data-cy="input-apellido"]').clear().type('Pérez')
     cy.get('[data-cy="input-telefono"]').clear().type('3511234567')
-    cy.get('[data-cy="input-dni"]').clear().type('20268800')
+    cy.get('[data-cy="input-dni"]').clear().type('33222444')
 
     cy.log('Seleccionar provincia y localidad')
     cy.get('[data-cy="select-provincia"]').clear().type('Córdoba')
