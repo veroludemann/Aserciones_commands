@@ -1,3 +1,5 @@
+/*Ejercicio 1: Custom commands*/
+
 describe('Formulario de registro', ()=>{
 
     beforeEach(() => {
